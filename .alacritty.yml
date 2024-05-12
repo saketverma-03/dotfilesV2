@@ -1,0 +1,80 @@
+font:
+  normal:
+    family: DankMonoNerdFontMono
+    style: Regular
+
+  bold:
+    family: DankMonoNerdFontMono
+    style: Bold
+
+  italic:
+    family: DankMonoNerdFontMono
+    style: Italic
+
+  bold_italic:
+    family: DankMonoNerdFontMono
+    style: Bold Italic
+
+  size: 12
+
+window:
+  opacity: 1
+
+schemes:
+  tokyo-night: &tokyo-night # Default colors
+    primary:
+      background: "#1a1b26"
+      foreground: "#a9b1d6"
+
+    # Normal colors
+    normal:
+      black: "#32344a"
+      red: "#f7768e"
+      green: "#9ece6a"
+      yellow: "#e0af68"
+      blue: "#7aa2f7"
+      magenta: "#ad8ee6"
+      cyan: "#449dab"
+      white: "#787c99"
+
+    # Bright colors
+    bright:
+      black: "#444b6a"
+      red: "#ff7a93"
+      green: "#b9f27c"
+      yellow: "#ff9e64"
+      blue: "#7da6ff"
+      magenta: "#bb9af7"
+      cyan: "#0db9d7"
+      white: "#acb0d0"
+  # Colors (Solarized Dark)
+  SL: &sl # Default colors
+    primary:
+      background: "#002b36"
+      foreground: "#839496"
+
+    # Normal colors
+    normal:
+      black: "#073642"
+      red: "#dc322f"
+      green: "#859900"
+      yellow: "#b58900"
+      blue: "#268bd2"
+      magenta: "#d33682"
+      cyan: "#2aa198"
+      white: "#eee8d5"
+
+    # Bright colors
+    bright:
+      black: "#002b36"
+      red: "#cb4b16"
+      green: "#586e75"
+      yellow: "#657b83"
+      blue: "#839496"
+      magenta: "#6c71c4"
+      cyan: "#93a1a1"
+      white: "#fdf6e3"
+
+colors: *tokyo-night
+env:
+  TERM: xterm-256color
